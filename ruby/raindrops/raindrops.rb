@@ -41,9 +41,9 @@ class Raindrops
   end
 end
 
-puts Raindrops.convert(30)
+# puts Raindrops.convert(30)
 
-voice = Raindrops.new(30)
-puts voice.number
-puts voice.factors.join(',')
-puts voice.speak
+# voice = Raindrops.new(30)
+# puts voice.number
+# puts voice.factors.join(',')
+# puts voice.speak
