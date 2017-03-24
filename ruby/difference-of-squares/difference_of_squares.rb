@@ -8,8 +8,8 @@ class Squares
   def initialize(number)
     @number = number
     if number > 0
-      #@square_of_sum = (1..number).reduce(:+)**2
-      @square_of_sum = (1..number).inject {|sum, n| sum + n } **2
+      # @square_of_sum = (1..number).reduce {|sum, n| sum + n } **2
+      @square_of_sum = (1..number).reduce(:+)**2
       @sum_of_squares = (1..number).reduce { |sum, number| sum + (number ** 2) }
       @difference = square_of_sum - sum_of_squares
     else
